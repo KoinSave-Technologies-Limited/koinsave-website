@@ -114,7 +114,7 @@ const Hero = () => {
           <div className="w-full h-8 bg-linear-to-t from-[#EDF9D6] to-transparent opacity-50 -mt-4 mb-2 rounded-b-full blur-xl" />
 
           <div className="w-full flex flex-col items-center gap-8 -mt-10 relative z-30">
-            <p className="text-[10px] font-bold text-gray-400 tracking-[0.2em] uppercase">Our brand partner (licensed by CBN)</p>
+            <p className="text-[10px] font-bold text-gray-400 tracking-[0.2em] uppercase">Our brand partner</p>
             <div className="flex justify-center opacity-80 transition-all duration-500">
               <Image
                 src="/brand1.png"

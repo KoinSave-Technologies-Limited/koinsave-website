@@ -24,9 +24,7 @@ const Footer: React.FC = () => {
                                 The future of saving <span className="text-[#D1F468]">starts right here.</span>
                             </h2>
 
-                            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/10 mt-4">
-                                <span className="text-[10px] font-bold text-[#D1F468] uppercase tracking-wider">Licensed by CBN</span>
-                            </div>
+
 
                             <div className="flex gap-4 mt-6">
                                 <SocialIcon Icon={XIcon} href="https://x.com/koinsave" />
