@@ -39,7 +39,7 @@ const Hero = () => {
             Join 1,500+ people using KoinSave to pay bills, send money, and take control of their finances — all in one app.
           </p>
 
-           <div className="flex flex-col sm:flex-row items-center gap-4 mb-10 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+           <div className="flex flex-col sm:flex-row items-center gap-4 mb-10 animate-fade-in-up relative z-20" style={{ animationDelay: '0.3s' }}>
              <a href="https://apps.apple.com/us/app/koinsave/id6748754614" target="_blank" rel="noopener noreferrer" className="inline-block transition-transform hover:scale-105 active:scale-95">
                <Image
                  src="/app-store-badge.png"
