@@ -11,6 +11,26 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/about-us",
+        destination: "/about",
+        permanent: true,
+      },
+      {
+        source: "/online-banking",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/waitlist",
+        destination:
+          "https://play.google.com/store/apps/details?id=com.koinsaveng.koinsaveapp",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

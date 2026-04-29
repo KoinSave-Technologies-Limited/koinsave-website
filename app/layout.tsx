@@ -20,7 +20,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "KoinSave",
-  description: "Reliable Payment Solutions for Modern Nigerians",
+  description: "Pay bills, send money, and manage your finances with KoinSave — Nigeria's smartest fintech app. Available on iOS and Android.",
 };
 
 export default function RootLayout({

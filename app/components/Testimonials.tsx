@@ -38,8 +38,7 @@ const Testimonials = () => {
     ];
 
     const stats = [
-        { value: "1,500+", label: "Waitlist Members" },
-        { value: "₦500M+", label: "Transactions" },
+        { value: "1,500+", label: "Active Users" },
         { value: "5.0/5", label: "Community Rating" },
         { value: "99.9%", label: "Uptime Guarantee" }
     ];
@@ -55,7 +54,7 @@ const Testimonials = () => {
                             Testimonials
                         </div>
                         <h2 className="text-4xl md:text-6xl font-semibold tracking-tight leading-[1.1] mb-6 text-gray-900">
-                            Trusted by <span className="text-gray-800 italic font-light">thousands</span> of people.
+                            Trusted by <span className="text-gray-800 italic font-light">our growing</span> community.
                         </h2>
                         <p className="text-lg md:text-xl text-gray-500 font-light leading-relaxed">
                             Don&apos;t just take our word for it. Here&apos;s what our users have to say about their experience with KoinSave.
@@ -119,11 +118,11 @@ const Testimonials = () => {
                                     Trusted by the community
                                 </h3>
                                 <p className="text-white/70 font-light">
-                                    Join thousands of people building their financial future
+                                    Join our growing community building their financial future
                                 </p>
                             </div>
 
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                            <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
                                 {stats.map((stat, index) => (
                                     <div
                                         key={index}

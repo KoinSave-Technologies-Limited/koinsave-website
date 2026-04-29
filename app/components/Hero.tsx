@@ -1,10 +1,8 @@
 "use client";
 
 import Image from 'next/image';
-import Link from 'next/link';
 import {
   RefreshCcw,
-  ArrowRight,
 } from 'lucide-react';
 import Navbar from './Navbar';
 import { Reveal } from './Reveal';
@@ -33,37 +31,34 @@ const Hero = () => {
 
 
           <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-center leading-[1.1] mb-6 text-[#0A0A0A] max-w-6xl animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-            The Smartest Way to Save & <br className="hidden md:block" />
-            Bank with
-            <span className="inline-flex items-center justify-center ml-3 align-middle -translate-y-1">
-             <Image
-  src="/logo-black.png"
-  alt="KoinSave Icon"
-  width={128}
-  height={128}
-  className="h-10 sm:h-14 md:h-16 w-auto object-contain"
-  priority
-/>
-            </span>
+            Save More. Spend Smart.<br />
+            <span className="text-[#3A6B18]">KoinSave.</span>
           </h1>
 
           <p className="text-gray-600 text-center text-lg md:text-xl max-w-3xl mb-10 leading-relaxed font-light animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Join thousands of People using KoinSave to automate their savings, pay bills & make international payments.
+            Join 1,500+ people using KoinSave to pay bills, send money, and take control of their finances — all in one app.
           </p>
 
            <div className="flex flex-col sm:flex-row items-center gap-4 mb-10 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-             <a href="https://apps.apple.com/ca/app/koinsave/id6748754614" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 bg-[#051B16] text-white px-7 py-3 rounded-full hover:bg-[#051B16]/90 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-[#051B16]/20 ring-1 ring-white/10">
-               <svg className="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-               <div className="flex flex-col items-start leading-none gap-1">
-                 <span className="text-[10px] font-medium opacity-80 uppercase tracking-wide">Download on the</span>
-                 <span className="text-base font-bold">App Store</span>
-               </div>
+             <a href="https://apps.apple.com/us/app/koinsave/id6748754614" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-105 active:scale-95">
+               <Image
+                 src="/app-store-badge.svg"
+                 alt="Download on the App Store"
+                 width={120}
+                 height={40}
+                 className="h-10 w-auto"
+               />
              </a>
 
-             <Link href="/waitlist" className="flex items-center gap-3 bg-[#D1F468] text-[#051B16] px-7 py-3 rounded-full hover:bg-[#D1F468]/90 transition-all hover:scale-105 active:scale-95 shadow-xl border border-white">
-               <ArrowRight className="w-5 h-5" />
-               <span className="text-base font-bold">Join Android Waitlist</span>
-             </Link>
+             <a href="https://play.google.com/store/apps/details?id=com.koinsaveng.koinsaveapp" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-105 active:scale-95">
+               <Image
+                 src="/google-play-badge.svg"
+                 alt="Get it on Google Play"
+                 width={135}
+                 height={40}
+                 className="h-10 w-auto"
+               />
+             </a>
            </div>
 
 

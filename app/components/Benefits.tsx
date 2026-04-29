@@ -2,7 +2,6 @@
 
 import { DollarSign, Lock, Zap, Globe2, PiggyBank, TrendingUp } from 'lucide-react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { Reveal } from './Reveal';
 
@@ -14,6 +13,7 @@ const Benefits = () => {
             description: "Set it and forget it. Create custom rules to save automatically based on your spending patterns.",
             stat: "Smart",
             statLabel: "AI Powered",
+            // TODO: Product team to confirm which features are now live (Automated Savings, Competitive Interest, USD Savings)
             comingSoon: true
         },
         {
@@ -22,6 +22,7 @@ const Benefits = () => {
             description: "Earn up to 15% annual interest on your savings. Watch your money grow while you sleep.",
             stat: "15%",
             statLabel: "Target Return",
+            // TODO: Product team to confirm which features are now live (Automated Savings, Competitive Interest, USD Savings)
             comingSoon: true
         },
         {
@@ -37,12 +38,13 @@ const Benefits = () => {
             description: "Protect your wealth from inflation. Save in dollars and maintain your purchasing power.",
             stat: "Global",
             statLabel: "Access",
+            // TODO: Product team to confirm which features are now live (Automated Savings, Competitive Interest, USD Savings)
             comingSoon: true
         },
         {
             icon: <Lock className="w-6 h-6" />,
             title: "Bank-Level Security",
-            description: "Your money is protected by military-grade encryption and stored in tier-1 banks."
+            description: "Your money is protected by 256-bit AES encryption and held by our licensed banking partner, 9PSB."
         },
         {
             icon: <Globe2 className="w-6 h-6" />,
@@ -124,9 +126,9 @@ const Benefits = () => {
                                 <p className="text-white/70 text-lg font-light leading-relaxed mb-8">
                                     With inflation eroding the value of the Naira, smart savers are moving to USD. KoinSave makes it easy to save in dollars and preserve your purchasing power.
                                 </p>
-                                <Link href="/waitlist" className="inline-block bg-[#D1F468] text-[#051B16] px-8 py-4 rounded-full font-bold hover:bg-white transition-all hover:scale-105 active:scale-95 shadow-xl">
-                                    Get Early Access
-                                </Link>
+                                <a href="https://apps.apple.com/us/app/koinsave/id6748754614" target="_blank" rel="noopener noreferrer" className="inline-block bg-[#D1F468] text-[#051B16] px-8 py-4 rounded-full font-bold hover:bg-white transition-all hover:scale-105 active:scale-95 shadow-xl">
+                                    Download App
+                                </a>
                             </div>
 
                             <div className="relative h-75 md:h-100 overflow-visible">

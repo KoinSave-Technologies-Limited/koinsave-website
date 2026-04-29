@@ -61,10 +61,11 @@ const Footer: React.FC = () => {
                         label="Email us"
                         value="support@koinsave.co"
                     />
+                    {/* TODO: Replace with confirmed phone number from product team */}
                     <ContactInfo
                         icon={<Phone className="w-5 h-5 text-[#D1F468]" />}
                         label="Call us"
-                        value="+234 5678 2353"
+                        value="+234 XXX XXXX XXXX"
                     />
                     <ContactInfo
                         icon={<MapPin className="w-5 h-5 text-[#D1F468]" />}

@@ -53,7 +53,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="hidden md:block">
-                    <Link href="https://apps.apple.com/ca/app/koinsave/id6748754614" className="bg-[#051B16] text-white px-6 py-2.5 rounded-full font-medium text-sm flex items-center gap-2 hover:bg-[#051B16]/90 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-[#051B16]/10">
+                    <Link href="https://apps.apple.com/us/app/koinsave/id6748754614" className="bg-[#051B16] text-white px-6 py-2.5 rounded-full font-medium text-sm flex items-center gap-2 hover:bg-[#051B16]/90 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-[#051B16]/10">
                         Download App
                         <ArrowRight className="w-3.5 h-3.5 mb-0.5" />
                     </Link>
@@ -89,8 +89,8 @@ const Navbar = () => {
                                     </Link>
                                 );
                             })}
-                            <Link href="/waitlist" className="bg-[#051B16] text-white px-6 py-3 rounded-full font-medium text-sm flex items-center justify-center gap-2 hover:bg-[#051B16]/90 w-full" onClick={() => setIsOpen(false)}>
-                                Join Waitlist
+                            <Link href="https://apps.apple.com/us/app/koinsave/id6748754614" className="bg-[#051B16] text-white px-6 py-3 rounded-full font-medium text-sm flex items-center justify-center gap-2 hover:bg-[#051B16]/90 w-full" onClick={() => setIsOpen(false)}>
+                                Download App
                                 <ArrowRight className="w-4 h-4 mb-0.5" />
                             </Link>
                         </div>

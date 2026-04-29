@@ -10,7 +10,7 @@ const FAQ = () => {
     const faqs = [
         {
             question: "Is my money safe with KoinSave?",
-            answer: "Absolutely. Your funds are held in segregated accounts with tier-1 Nigerian banks and protected by NDIC insurance. We use bank-grade 256-bit encryption and comply with all CBN regulations. Your security is our top priority."
+            answer: "Absolutely. Your funds are held in segregated accounts with tier-1 Nigerian banks and protected by NDIC insurance. We use 256-bit encryption and comply with all CBN regulations. Your security is our top priority."
         },
         {
             question: "How fast are transfers?",
@@ -22,7 +22,7 @@ const FAQ = () => {
         },
         {
             question: "Is KoinSave licensed and regulated?",
-            answer: "KoinSave is partnered with 9PSB, who is licensed by CBN."
+            answer: "KoinSave is a technology platform, not a bank. Your funds are held and managed by 9PSB (9 Payment Service Bank), a CBN-licensed institution. KoinSave provides the app and technology layer — 9PSB handles the regulated financial services."
         }
     ];
 
