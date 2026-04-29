@@ -40,23 +40,23 @@ const Hero = () => {
           </p>
 
            <div className="flex flex-col sm:flex-row items-center gap-4 mb-10 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-             <a href="https://apps.apple.com/us/app/koinsave/id6748754614" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-105 active:scale-95">
+             <a href="https://apps.apple.com/us/app/koinsave/id6748754614" target="_blank" rel="noopener noreferrer" className="inline-block transition-transform hover:scale-105 active:scale-95">
                <Image
                  src="/app-store-badge.png"
                  alt="Download on the App Store"
-                 width={120}
-                 height={40}
-                 className="h-10 w-auto"
+                 width={200}
+                 height={60}
+                 className="h-14 sm:h-16 w-auto"
                />
              </a>
 
-             <a href="https://play.google.com/store/apps/details?id=com.koinsaveng.koinsaveapp" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-105 active:scale-95">
+             <a href="https://play.google.com/store/apps/details?id=com.koinsaveng.koinsaveapp" target="_blank" rel="noopener noreferrer" className="inline-block transition-transform hover:scale-105 active:scale-95">
                <Image
                  src="/google-play-badge.png"
                  alt="Get it on Google Play"
-                 width={135}
-                 height={40}
-                 className="h-10 w-auto"
+                 width={220}
+                 height={60}
+                 className="h-14 sm:h-16 w-auto"
                />
              </a>
            </div>
